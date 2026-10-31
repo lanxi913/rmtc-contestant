@@ -38,7 +38,7 @@
 ## 2026-10-31 新版练习包验证
 
 - supplied dist 中 rmtc_practice.tar.gz 的 SHA-256 校验匹配：`b2e92c20829258a1caf1f2224b8b22f2ca6ce6a2e41a20a6ca5752564ff747f1`。
-- Ubuntu 22.04 / ROS 2 Humble 的本次测试输出：82 tests，0.490s，OK；随后在正确包根执行 colcon，输出 `1 package finished [1.23s]`。不将早先 HOME 目录构建失败算作成功。
+- Ubuntu 22.04 / ROS 2 Humble 的本次测试输出：最终复核为 82 tests，0.494s，OK；随后在正确包根执行 colcon，输出 `1 package finished [1.04s]`。不将早先 HOME 目录构建失败算作成功。
 - 隔离练习实例使用 ROS_DOMAIN_ID=40、端口 8081；既有 8080 实例未停止。没有参考车，唯一 A 控制节点是本队程序。
 - 慢速诊断场次：1000 ms/Tick、60 Tick，session `practice-c0992cb0377946b38aa6c5d65fa38096`；最终资源 170、练习分 34、非法动作 0、HP 100，感知/动作 Tick 60、执行 Tick 59。该时长不是标准满场比较条件。
 - 裁判页截图经 CDP 从原页直接保存，页面 DOM 核对了上述字段；节点原始日志核对 position、同 tick/session 动作及后续 receipt。完整连续影像与正式收件尚未完成。

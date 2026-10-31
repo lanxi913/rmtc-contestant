@@ -15,3 +15,6 @@ docs/superpowers/
 *.pdf
 docs/precheck-referee-and-node-2026-10-31.png
 docs/precheck-node-2026-10-31.png
+
+scripts/create_submission_archive.ps1
+
