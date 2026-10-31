@@ -1,0 +1,43 @@
+﻿{
+    "session_id":  "practice-c0992cb0377946b38aa6c5d65fa38096",
+    "status":  {
+                   "tick":  60,
+                   "max_ticks":  60,
+                   "ready":  true,
+                   "paused":  false,
+                   "finished":  true,
+                   "fault":  ""
+               },
+    "checks":  {
+                   "A":  {
+                             "perception_tick":  60,
+                             "position":  [
+                                              12,
+                                              4
+                                          ],
+                             "last_action":  {
+                                                 "action":  "move",
+                                                 "effective_direction":  "left",
+                                                 "moved":  true,
+                                                 "tick":  59
+                                             },
+                             "event_text":  "",
+                             "action_tick":  60,
+                             "executed_tick":  59
+                         }
+               },
+    "teams":  [
+                  {
+                      "team":  "A",
+                      "team_name":  "çç¨åèµç¨åº",
+                      "score":  34.0,
+                      "resource_value":  170.0,
+                      "effective_damage":  0.0,
+                      "mission_completed":  0,
+                      "invalid_actions":  0,
+                      "hp":  100,
+                      "alive":  true
+                  }
+              ],
+    "practice_only":  true
+}

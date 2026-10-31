@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+build/
+install/
+log/
+.env
+.env.*
+*.pem
+*.key
+submission/
+HANDOFF.md
+docs/superpowers/
+.dsh-office-*/
+*.docx
+*.pdf
+docs/precheck-referee-and-node-2026-10-31.png
+docs/precheck-node-2026-10-31.png
